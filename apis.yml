@@ -1,8 +1,26 @@
 aid: apricot
 name: Apricot
-description: 'Apricot is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Apricot is an AI-native clinical documentation platform for home health
+  and post-acute care agencies, founded by home-health operator Trent Smith and headquartered
+  in Oklahoma. Its software cuts start-of-care (SOC) and OASIS documentation time by
+  up to 85% and QA time by up to 40%, automating medication reconciliation, wound
+  documentation, ICD coding recommendations, and narrative generation while capturing
+  vitals, photos, signatures, and voice notes in the home and syncing to each agency''s
+  EMR configuration. Apricot is HIPAA and SOC 2 compliant and raised a Series A led
+  by Insight Partners in 2025. This API Evangelist profile tracks the company''s public
+  web presence; Apricot currently publishes no public API, developer portal, or SDKs.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66bb9ace1660b172e0cc3580/685c3ca0c47839850c82b54a_fav256.png
 url: https://raw.githubusercontent.com/api-evangelist/apricot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Home Health
+- Post-Acute Care
+- Clinical Documentation
+- Artificial Intelligence
+- HIPAA
+- OASIS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.apricothealth.ai/
+- type: Blog
+  url: https://www.apricothealth.ai/articles
+- type: Login
+  url: https://app.apricothealth.ai/auth/signin
+- type: Support
+  url: https://www.apricothealth.ai/contact
+- type: Compliance
+  url: https://www.apricothealth.ai/articles/soc2
+- type: TermsOfService
+  url: https://www.apricothealth.ai/disclosures/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.apricothealth.ai/disclosures/privacy-policy
+- type: DomainSecurity
+  url: security/apricot-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
