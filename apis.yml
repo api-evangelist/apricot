@@ -9,6 +9,17 @@ description: 'Apricot is an AI-native clinical documentation platform for home h
   EMR configuration. Apricot is HIPAA and SOC 2 compliant and raised a Series A led
   by Insight Partners in 2025. This API Evangelist profile tracks the company''s public
   web presence; Apricot currently publishes no public API, developer portal, or SDKs.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
